@@ -171,9 +171,4 @@ def compute_pH(points):
             p[i] += derivatives[k] * Ĥk[i]
 
     return p
-def evaluer_polynome(coeffs, x):
 
-    valeur = 0.0
-    for i, c in enumerate(coeffs):
-        valeur += c * (x ** i)
-    return valeur
